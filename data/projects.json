@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "name": "Shady Attia",
+    "role": "Full Stack Developer",
+    "tagline": "Building scalable, high-performance web applications with a focus on efficiency and modern architecture.",
+    "email": "shady.attia@example.com",
+    "location": "City, Country"
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React.js", "level": "Advanced" },
+        { "name": "Next.js", "level": "Advanced" },
+        { "name": "TypeScript", "level": "Advanced" },
+        { "name": "Tailwind CSS", "level": "Advanced" },
+        { "name": "Redux/Zustand", "level": "Proficient" }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "Node.js", "level": "Advanced" },
+        { "name": "Python", "level": "Proficient" },
+        { "name": "Express/FastAPI", "level": "Advanced" },
+        { "name": "PostgreSQL", "level": "Proficient" },
+        { "name": "MongoDB", "level": "Proficient" },
+        { "name": "Redis", "level": "Familiar" }
+      ]
+    },
+    {
+      "category": "DevOps & Cloud",
+      "items": [
+        { "name": "Docker", "level": "Advanced" },
+        { "name": "Kubernetes", "level": "Proficient" },
+        { "name": "AWS", "level": "Proficient" },
+        { "name": "CI/CD Pipelines", "level": "Advanced" },
+        { "name": "Linux", "level": "Advanced" }
+      ]
+    },
+    {
+      "category": "AI & Emerging Tech",
+      "items": [
+        { "name": "LLM Integration", "level": "Advanced" },
+        { "name": "Prompt Engineering", "level": "Advanced" },
+        { "name": "LangChain", "level": "Proficient" },
+        { "name": "Vector DBs", "level": "Familiar" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Company A",
+      "role": "Full Stack Developer",
+      "period": "2022 - Present",
+      "description": "Developing end-to-end features from database design to UI implementation, optimizing application performance and reducing load times.",
+      "achievements": [
+        "Reduced page load time by 30% through efficient state management and image optimization.",
+        "Implemented secure authentication and authorization flows using JWT and OAuth2.",
+        "Collaborated in Agile environments to deliver iterative value to 10k+ active users."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "slug": "ecommerce-platform",
+      "description": "A full-featured online store with real-time inventory and secure payments.",
+      "tags": ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
+      "category": "FullStack",
+      "image": "/assets/projects/ecommerce.jpg",
+      "link": "https://github.com/shady/ecommerce",
+      "problem": "High latency during checkout and inconsistent state across devices.",
+      "solution": "Implemented Redis caching for session management and optimized SQL queries.",
+      "result": "Increased conversion rate by 15% and reduced checkout time to under 2 seconds."
+    },
+    {
+      "title": "AI Content Engine",
+      "slug": "ai-content-engine",
+      "description": "An automated content generation tool leveraging LLMs and Vector databases.",
+      "tags": ["Python", "FastAPI", "OpenAI", "Pinecone"],
+      "category": "AI",
+      "image": "/assets/projects/ai-engine.jpg",
+      "link": "https://github.com/shady/ai-engine",
+      "problem": "Manual content creation was slow and inconsistent across different brand voices.",
+      "solution": "Developed a RAG (Retrieval-Augmented Generation) pipeline to infuse brand-specific context into LLM prompts.",
+      "result": "Reduced content production time by 70% while maintaining high brand alignment."
+    },
+    {
+      "title": "Cloud Infrastructure Orchestrator",
+      "slug": "cloud-orchestrator",
+      "description": "A DevOps tool to automate Kubernetes cluster deployment and monitoring.",
+      "tags": ["Go", "Docker", "K8s", "Terraform"],
+      "category": "DevOps",
+      "image": "/assets/projects/cloud-orchestrator.jpg",
+      "link": "https://github.com/shady/cloud-orch",
+      "problem": "Manual infrastructure setup was prone to errors and took hours per environment.",
+      "solution": "Created a set of Terraform modules and Helm charts for one-click environment provisioning.",
+      "result": "Deployment time dropped from 4 hours to 10 minutes with 100% consistency."
+    }
+  ]
+}
