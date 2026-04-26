@@ -1,5 +1,5 @@
 import data from '@/data/projects.json';
-import { NotFound } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,7 +7,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = data.projects.find(p => p.slug === params.slug);
 
   if (!project) {
-    return <NotFound />;
+    notFound();
   }
 
   return (
